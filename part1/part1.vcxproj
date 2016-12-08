@@ -142,6 +142,13 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="DbgExt.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="DbgExt.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="windbg-ext.def" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

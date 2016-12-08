@@ -1,0 +1,6 @@
+;def file
+EXPORTS
+;	helloWorld
+	DebugExtensionNotify
+	DebugExtensionInitialize
+	DebugExtensionUninitialize
